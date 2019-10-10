@@ -53,6 +53,7 @@ int main()
             scanf("%d", &arr[i]);
         quickSort(arr, 0, n-1) ;
         printf("Sorted Array:\n");
+       //printing the sorted array
         for(i = 0; i < n; i++)
             printf("%d ", arr[i]);
         printf("\n");
